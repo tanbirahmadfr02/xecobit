@@ -1,0 +1,623 @@
+/*font-family: 'Barlow Semi Condensed', sans-serif;
+font-family: 'Rajdhani', sans-serif;*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+p {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    line-height: 28px;
+    font-size: 16px;
+    margin-bottom: 0px;
+    color: #888888;
+    font-weight: 400;
+}
+
+/* Navber Part Start */
+#navber {
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 25px;
+    z-index: 999;
+    transition: 1s;
+}
+
+#navber.menu_fixed {
+    position: fixed;
+    z-index: 9999 !important;
+    width: 100%;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.05);
+    top: 0;
+    background-color: #562fc7;
+    padding: 0;
+}
+
+#navber.menu_fixed .btn_1 {
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+#navber .navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-right: 75px;
+}
+
+#navber ul li .nav-link {
+    color: #fff;
+    font-size: 14px;
+    padding: 40px 20px;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    text-transform: uppercase;
+    line-height: 12px;
+    font-weight: 600;
+}
+
+#navber .btn_1 {
+    display: inline-block;
+    padding: 13px 44px;
+    border-radius: 50px;
+    background-color: transparent;
+    font-size: 15px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    color: #182028;
+    -webkit-transition: .5s;
+    transition: .5s;
+    text-transform: uppercase;
+    border: 1px solid #ff4800;
+}
+
+#navber .btn_1:hover {
+    color: #fff !important;
+    background-color: #ff4800;
+}
+
+/* Navber Part End */
+
+/* Banner Part Start */
+#banner {
+    width: 100%;
+    height: 1020px;
+    background: url(../img/banner_bg.png);
+    background-repeat: no-repeat;
+    background-size: 65% 100%;
+    background-position: left top;
+    position: relative;
+}
+
+#banner .img_part img {
+    width: 458px;
+}
+
+#banner .text {
+    padding-top: 148px;
+}
+
+#banner .text h1 {
+    font-size: 61px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 40px;
+    line-height: 70px;
+}
+
+#banner .text p {
+    font-family: "Rajdhani", sans-serif;
+    margin-bottom: 42px;
+    padding-right: 110px;
+}
+
+#banner .btn_2 {
+    display: inline-block;
+    padding: 12px 44px;
+    border-radius: 50px;
+    background-color: #ff4800;
+    font-size: 15px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    color: #fff;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    text-transform: uppercase;
+    border: 2px solid #ff4800;
+}
+
+#banner .btn_2:hover {
+    color: #ff4800 !important;
+    border: 2px solid #ff4800;
+    background-color: transparent;
+}
+
+/* Banner Part End */
+
+/* Service Part Start */
+#service {
+    padding-top: 140px;
+}
+
+#service .item {
+    padding: 0 15px;
+    text-align: center;
+}
+
+#service .item img {
+    margin-bottom: 33px;
+    height: 65px;
+}
+
+#service .item h4 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 22px;
+}
+
+#service .item p {
+    color: #7f7f7f;
+    line-height: 1.8;
+    font-size: 15px;
+}
+
+/* Service Part End */
+
+/* About us Part Start */
+#about {
+    padding: 140px 0;
+}
+
+#about .text_part h2 {
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 55px;
+    margin-bottom: 28px;
+    position: relative;
+}
+
+#about .text_part p {
+    line-height: 36px;
+    margin-bottom: 57px;
+}
+
+#about .btn_2 {
+    display: inline-block;
+    padding: 12px 44px;
+    border-radius: 50px;
+    background-color: #ff4800;
+    font-size: 15px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    color: #fff;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    text-transform: uppercase;
+    border: 2px solid #ff4800;
+}
+
+#about .btn_2:hover {
+    color: #ff4800 !important;
+    border: 2px solid #ff4800;
+    background-color: transparent;
+}
+
+#about .img_part img {
+    width: 100%;
+}
+
+/* About us Part End */
+
+/* Unlock Part Start */
+#unlock .text_part h2 {
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 55px;
+    margin-bottom: 28px;
+    position: relative;
+}
+
+#unlock .text_part p {
+    line-height: 36px;
+    margin-bottom: 57px;
+}
+
+#unlock .btn_2 {
+    display: inline-block;
+    padding: 12px 44px;
+    border-radius: 50px;
+    background-color: #ff4800;
+    font-size: 15px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    color: #fff;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    text-transform: uppercase;
+    border: 2px solid #ff4800;
+}
+
+#unlock .btn_2:hover {
+    color: #ff4800 !important;
+    border: 2px solid #ff4800;
+    background-color: transparent;
+}
+
+#unlock .img_part img {
+    width: 100%;
+}
+
+/* Unlock Part End */
+
+/* Pricing Part Start */
+#pricing {
+    padding: 140px 0;
+}
+
+#pricing .heading {
+    margin-bottom: 53px;
+}
+
+#pricing .heading h2 {
+    font-size: 45px;
+    color: #182028;
+    line-height: 33px;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 28px;
+}
+
+#pricing .heading p {
+    color: #556172;
+    text-transform: capitalize;
+    line-height: 30px;
+    font-family: "Rajdhani", sans-serif;
+}
+
+#pricing .pricing_item {
+    text-align: center;
+    padding: 40px 40px 32px;
+    border: 1px solid #eaecee;
+    transition: all linear .3s;
+}
+
+#pricing .pricing_item:hover {
+    border: 1px solid #ffffff;
+}
+
+#pricing .pricing_item img {
+    margin-bottom: 18px;
+    height: 65px;
+}
+
+#pricing .pricing_item p {
+    color: #182028;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 27px;
+}
+
+#pricing .pricing_item h3 {
+    font-size: 30px;
+    font-weight: 600;
+    border-top: 1px solid #eee;
+    margin-bottom: 5px;
+    padding-top: 24px;
+}
+
+#pricing .pricing_item h3 span {
+    font-size: 16px;
+    color: #919191;
+    font-weight: 400;
+}
+
+#pricing .pricing_item ul {
+    padding: 12px 0 20px;
+    margin: 0;
+    border-bottom: 1px solid #eaecee;
+}
+
+#pricing .pricing_item ul li {
+    font-size: 14px;
+    color: #7f7f7f;
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+
+#pricing .pricing_item .pricing_btn {
+    padding-top: 33px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    display: inline-block;
+    color: #182028;
+    transition: all linear .3s;
+}
+
+#pricing .pricing_item .pricing_btn:hover {
+    color: #ff4800;
+}
+
+/* Pricing Part End */
+/* =======testimonial part start ===== */
+#testimonial_part {
+    padding-bottom: 140px;
+}
+
+#testimonial_part img {
+    width: 100%;
+}
+
+#testimonial_part .item h2 {
+    font-size: 41px;
+    font-weight: 500;
+    line-height: 55px;
+    margin-bottom: 28px;
+}
+
+#testimonial_part .item p {
+    line-height: 36px;
+    margin-bottom: 34px;
+}
+
+#testimonial_part .item h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#testimonial_part .item h3 span {
+    font-size: 70%;
+    color: #888;
+    font-weight: 400;
+}
+
+#testimonial_part .slick-dots {
+    margin-top: 33px;
+    display: flex;
+    gap: 15px;
+}
+
+#testimonial_part .test_slider .slick-dots li button {
+    font-size: 0;
+    height: 4px;
+    width: 20px;
+    border-radius: 50px;
+    background-color: #d3d8dd;
+    border: none;
+}
+
+#testimonial_part .slick-dots li.slick-active button {
+    background-color: #ff4800;
+}
+
+/* =======testimonial part end ===== */
+/* ========freeTrail_part start ======== */
+#subscribe_part {
+    padding-bottom: 140px;
+}
+
+#subscribe_part h2 {
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 55px;
+    margin-bottom: 77px;
+    text-align: center;
+}
+
+#subscribe_part::placeholder {
+    color: #6c757d;
+    opacity: 1;
+}
+
+#subscribe_part .email_form {
+    padding: 30px 0 30px 22px;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1.2px;
+    padding-right: 46%;
+}
+
+#subscribe_part .main {
+    display: flex;
+    justify-content: space-between;
+}
+
+#subscribe_part::placeholder {
+    color: #6c757d;
+    opacity: 1;
+}
+
+#subscribe_part .form-control {
+    padding: 39px 20px;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1.2px;
+}
+
+#subscribe_part .btn_2 {
+    display: inline-block;
+    background-color: #ff4800;
+    font-size: 15px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    color: #fff;
+    -webkit-transition: .5s;
+    transition: .5s;
+    text-transform: uppercase;
+    border: 2px solid #ff4800;
+    border-radius: 0;
+    padding: 37px 50px;
+    margin: 0 5px;
+}
+
+#subscribe_part .btn_2:hover {
+    color: #ff4800 !important;
+    border: 2px solid #ff4800;
+    background-color: transparent;
+}
+
+/* ========freeTrail_part end ======== */
+/* ==========logo slider part start ========= */
+#logo_slider_part {
+    padding-bottom: 140px;
+}
+
+#logo_slider_part .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#logo_slider_part .logo {
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+#logo_slider_part .logo img {
+    width: auto;
+    margin: 0 auto;
+}
+
+/* ==========logo slider part end ========= */
+/* =========footer part start ======= */
+#footer_part {
+    background: url(../img/footer_bg.png.webp) no-repeat center;
+    background-size: cover;
+    padding-top: 130px;
+    padding-bottom: 25px;
+}
+
+#footer_part img {
+    margin-bottom: 35px;
+}
+
+#footer_part .single_footer_part p {
+    margin-bottom: 10px;
+}
+
+#footer_part .single_footer_part h4 {
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+#footer_part .single_footer_part .list-unstyled li a {
+    color: #888888;
+    margin-bottom: 10px;
+    display: inline-block;
+    transition: .3s;
+}
+
+#footer_part .single_footer_part .list-unstyled li a:hover {
+    color: #ff4800 !important;
+}
+
+#footer_part hr {
+    background-color: #cad7dc;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+#footer_part .copyright_text p {
+    color: #888;
+}
+
+#footer_part .copyright_text p span {
+    color: #ff4800;
+}
+
+#footer_part .footer_icon {
+    display: flex;
+    gap: 30px;
+    justify-content: end;
+}
+
+#footer_part .footer_icon a {
+    font-size: 14px;
+    color: #888888;
+    margin-left: 30px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+#footer_part .footer_icon a:hover {
+    color: #ff4800;
+}
+
+/* =========footer part end ======= */
+/* ==========back to top part ======= */
+.back_to_top {
+    height: 30px;
+    width: 30px;
+    background-color: #562fc7;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    position: fixed;
+    right: 10px;
+    top: 10%;
+    opacity: 0;
+    visibility: hidden;
+    transition: all linear 1s;
+}
+
+.back_to_top .angle {
+    font-size: 20px;
+    color: #fff;
+}
+
+.bottom_to_top {
+    opacity: 1;
+    visibility: visible;
+    top: 90%;
+    animation: top 2s linear;
+    transform: scale(1.2);
+}
+
+@keyframes top {
+    0% {
+        top: 10%;
+    }
+
+    50% {
+        top: 95%;
+    }
+
+    100% {
+        top: 90%;
+    }
+}
+
+/* ==========back to top part ======= */
+
+
+
+
+
+
+/* Banner Part Start */
+/* Banner Part End */
+/* Banner Part Start */
+/* Banner Part End */
+/* Banner Part Start */
+/* Banner Part End */
+/* Banner Part Start */
+/* Banner Part End */
+/* Banner Part Start */
+/* Banner Part End */
+/* Banner Part Start */
+/* Banner Part End */
